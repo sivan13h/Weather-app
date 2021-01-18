@@ -1,0 +1,26 @@
+.navbar {
+  padding: 1rem;
+  background-color: rgb(219, 221, 223) !important;
+  box-shadow: 0 20px 20px -20px rgba(0, 0, 0, 0.2);
+}
+.navBrand {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.navLink {
+  color: black;
+  margin-left: 2rem;
+  transition: all 0.2s;
+}
+
+.navBrand:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  color: grey;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
