@@ -24,3 +24,20 @@
   text-decoration: none;
   transform: translateY(-2px);
 }
+
+@media screen and (max-width: 767px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navBrand {
+    font-size: 1.2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+  .navLink {
+    margin-left: 0;
+  }
+}
